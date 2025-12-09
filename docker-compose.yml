@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: sergiov813/final-ps-iii:latest
+    container_name: sv-container
+    ports:
+      - "80:80"
+    restart: always
